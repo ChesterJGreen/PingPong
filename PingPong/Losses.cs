@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using PingPong.Enums;
 
 namespace PingPong
 {
     public class Losses
     {
-        public enum LossSide { get; set; }
+        public Side LossSide { get; set; }
         public int Loss { get; set; }
     }
 }

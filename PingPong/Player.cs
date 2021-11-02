@@ -1,9 +1,11 @@
-﻿namespace PingPong
+﻿using PingPong.Enums;
+
+namespace PingPong
 {
-    class Opponent
+    class Player
     {
         public string Name { get; set; }
-        public enum Handed { get; set; }
+        public Handed PaddleHand{ get; set; }
         public Wins WinSide { get; set; }
         public Wins Win { get; set; }
         public Losses LossSide { get; set; }

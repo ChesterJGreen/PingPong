@@ -1,11 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using PingPong.Enums;
+using System;
 
 namespace PingPong
 {
-    class MySelf
+    class MySelf : Player
     {
-        public string Name { get; set; }
+        public MySelf()
+        {
+            Name = "CJ";
+            Handed = Handed.Right;
+        }
+
+        public Handed Handed { get; private set; }
     }
 }
