@@ -1,0 +1,3 @@
+﻿database login info
+user: dev
+password: 1234
